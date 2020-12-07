@@ -31,8 +31,9 @@ while True:
     #print(faces)  # face 在影像中的位置，會有兩個point，top left of the screen where the faces is detected
                   # another is right bottom
 
- 
-
+    
+    
+    
     frame = cv.flip(frame, 1)
     
     cv.imshow('me', frame)
